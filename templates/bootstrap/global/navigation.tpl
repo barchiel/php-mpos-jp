@@ -84,7 +84,7 @@
                         <a href="#"><i class="fa fa-question fa-fw"></i> ヘルプ<span class="fa arrow"></span></a>
                         <ul class="nav nav-second-level">
                           <li><a href="{$smarty.server.SCRIPT_NAME}?page=gettingstarted"><i class="fa fa-question fa-fw"></i> 採掘方法</a></li>
-                          {acl_check page='about' action='pool' name='<i class="fa fa-info fa-fw"></i> 寛永通宝について' acl=$GLOBAL.acl.about.page}
+                          {acl_check page='about' action='pool' name='<i class="fa fa-info fa-fw"></i> {$GLOBAL.website.name}について' acl=$GLOBAL.acl.about.page}
                         </ul>
                         <!-- /.nav-second-level -->
                     </li>
